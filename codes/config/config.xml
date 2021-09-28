@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xml_body>
+	<!-- 日志路径, 保留字段名__log__，可包含时间信息  -->
+	<__log__>/home/developer_13/FY4A/codes/log/%Y%m%d.log</__log__>
+
+	<!-- 数据路径 -->
+	<path>
+		<!-- raw数据路径 -->
+		<raw_root>/home/developer_13/FY4A/docs/raw</raw_root>
+		<raw_name_500m>FullMask_Grid_500.raw</raw_name_500m>
+		<raw_name_1000m>FullMask_Grid_1000.raw</raw_name_1000m>
+		<raw_name_2000m>FullMask_Grid_2000.raw</raw_name_2000m>
+		<raw_name_4000m>FullMask_Grid_4000.raw</raw_name_4000m>
+		<raw_name_8000m>FullMask_Grid_8000.raw</raw_name_8000m>
+		<raw_name_16000m>FullMask_Grid_16000.raw</raw_name_16000m>
+	</path>
+	<save_path>
+		<raw_nc>/home/developer_13/FY4A/codes/result/raw</raw_nc>
+	</save_path>
+
+	<!-- 经纬度范围（degree，-180°~180°） -->
+	<location>
+		<l_lon>112.71</l_lon>
+		<t_lat>34.99</t_lat>
+		<r_lon>114.21</r_lon>
+		<b_lat>34.26</b_lat>
+	</location>
+
+	<!-- 运行参数 -->
+	<param>
+		<!-- 命令行时间参数格式 -->
+		<time_format>%Y%m%d%H%M</time_format>
+		<!-- 降水和全市积水产品数据精度（degree，-180°~180°）-->
+		<reslution>0.01</reslution>
+	</param>
+</xml_body>
