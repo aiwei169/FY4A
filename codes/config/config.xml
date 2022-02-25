@@ -30,7 +30,5 @@
 	<param>
 		<!-- 命令行时间参数格式 -->
 		<time_format>%Y%m%d%H%M</time_format>
-		<!-- 降水和全市积水产品数据精度（degree，-180°~180°）-->
-		<reslution>0.01</reslution>
 	</param>
 </xml_body>
